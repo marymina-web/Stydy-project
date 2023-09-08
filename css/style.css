@@ -17,6 +17,14 @@ img{
   padding: 0 30px;
 }
 
+.col {
+  margin: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .headerContent {
   display: flex;
   justify-content: space-between;
@@ -111,16 +119,11 @@ img{
 }
 
 .menuItem {
-  box-sizing: border-box;
-  margin: 10px;
   width: calc(100% / 4 - 20px);
   background-color: #00BFFF;
   padding: 8px 8px 15px 8px;
   border-radius: 10px;
   text-align: center;
-  vertical-align: top;
-  display: inline-block;
-  font-size: 16px;
 }
 
 .menuItem__image {
@@ -195,6 +198,7 @@ img{
   .menuItem {
     width: calc(100% / 3 - 20px);
   }
+}
 
 @media screen and (max-width: 800px) {
   .container {
